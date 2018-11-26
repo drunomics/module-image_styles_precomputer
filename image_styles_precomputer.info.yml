@@ -1,0 +1,5 @@
+type: module
+name: Image style precomputer
+description: 'Drush command to precompute image styles .'
+package: Image
+core: 8.x

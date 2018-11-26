@@ -1,0 +1,6 @@
+services:
+  image_styles_precomputer.commands:
+    class: \Drupal\image_styles_precomputer\Commands\ImageStylesPrecomputerCommands
+    arguments: ['@entity_type.manager', '@image.factory']
+    tags:
+      - { name: drush.command }
